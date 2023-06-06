@@ -1,0 +1,126 @@
+<html>
+ <head>
+ </head>
+ <body>
+  <script>
+   var total = "";
+   var cal = 0;
+   var total_lasta = "";
+   var total_lastb = "";
+   var total_lastc = "";
+   var total_lastd = "";
+	var last_value = "";
+	var last_valuea = "";
+	var last_valueb = "";
+	var last_valuec = "";
+	var last_valued = "";
+   var before_val = 0;
+   var before_vala = 0;
+   var before_valb = 0;
+   var before_valc = 0;
+   var before_vald = 0;
+   var after_vala = 0;
+   var after_valb = 0;
+   var after_valc = 0;
+   var after_vald = 0;
+   
+   function print_value(val)
+   { 
+    if(val == " + ")
+	 cal = 1 ;
+	else if(val == " - ")
+	 cal = 2 ;
+	else if(val == " * ")
+	 cal = 3 ;
+	else if(val == " / ")
+	 cal = 4 ;
+   
+   if (((val == " + " ) && (last_value == " + ")) ||((val == " - " ) && (last_value == " - "))||((val == " * " ) && (last_value == " * "))|((val == " / " ) && (last_value == " / ")))
+     return;
+	 
+	if(val == " + ")
+	 before_valda = Number(total);
+	if(val == " - ")
+	 before_valdb = Number(total);
+	if(val == " * ")
+	 before_valdc = Number(total);
+	if(val == " / ")
+     before_vald = Number(total);
+    if (val == " = ") 
+     after_vala = Number(total_lasta);
+    
+	if (val == " = ") 
+     after_valb = Number(total_lastb);
+    
+	if (val == " = ") 
+     after_valc = Number(total_lastc);
+    
+	if (val == " = ") 
+     after_vald = Number(total_lastd);
+    //console.log(before_val+"."+after_val);
+    
+    if ((before_val != 0) && (val != " + "))
+     total_lasta += val;
+    if ((before_val != 0) && (val != " - "))
+     total_lastb += val;
+    if ((before_val != 0) && (val != " * "))
+     total_lastc += val;
+    if ((before_val != 0) && (val != " / "))
+     total_lastd += val;
+	
+	
+    if (val == " = "){
+		if (cal == 1)
+			total += val + (before_vala + after_vala);
+			before_val = 
+		if (cal == 2)
+			total += val + (before_valb - after_valb);
+		if (cal == 3)
+			total += val + (before_valc * after_valc);
+		if (cal == 4)
+			total += val + (before_vald / after_vald);
+	}
+    else
+     total += val;
+    last_value = val;
+            
+    document.getElementById("print_window").value = total;
+   }
+   function print_init()
+   {
+    total = "";
+    cal = 0;
+    total_lasta = "";
+    total_lastb = "";
+    total_lastc = "";
+    total_lastd = "";
+    last_value = "";
+    before_val = 0;
+    after_vala = 0;
+    after_valb = 0;
+    after_valc = 0;
+    after_vald = 0;
+    document.getElementById("print_window").value = "0";
+   }
+  </script>
+  
+  <input type="text" id="print_window" value="0"> <br><br>
+  <input type="button" value="1" onclick="print_value('1')">
+  <input type="button" value="2" onclick="print_value('2')">
+  <input type="button" value="3" onclick="print_value('3')">
+  <input type="button" value="+" onclick="print_value(' + ')"><br><br>
+  <input type="button" value="4" onclick="print_value('4')">
+  <input type="button" value="5" onclick="print_value('5')">
+  <input type="button" value="6" onclick="print_value('6')">
+  <input type="button" value="-" onclick="print_value(' - ')"><br><br>
+  <input type="button" value="7" onclick="print_value('7')">
+  <input type="button" value="8" onclick="print_value('8')">
+  <input type="button" value="9" onclick="print_value('9')">
+  <input type="button" value="*" onclick="print_value(' * ')"><br><br>
+  <input type="button" value="C" onclick="print_init()">
+  <input type="button" value="0" onclick="print_value('0')">
+  <input type="button" value="=" onclick="print_value(' = ')">
+  <input type="button" value="/" onclick="print_value(' / ')">
+  
+ </body>
+</html>

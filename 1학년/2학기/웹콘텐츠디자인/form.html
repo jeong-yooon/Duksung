@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+   <form method = "get" action = "결과.html">
+   <fieldset>
+		<legend> 정 보 </legend>
+      <input type="text" name="name" value = "이름을 입력하세요."></input><br>
+      음악: <input type="radio" name="hobby" value="music" checked="checked"></input>
+      잠: <input type="radio" name="hobby" value="sleep" id="mus"></input>   
+      <label for ="mus"> 영화: </label><input type="radio" name="hobby" value="movie"></input>
+      게임: <input type="radio" name="hobby" value="game"></input><br>
+      국어:<input type="checkbox" name="major[]" value="lang" checked="checked">
+      수학:<input type="checkbox" name="major[]" value="math">
+      영어:<input type="checkbox" name="major[]" value="eng" checked="checked"><br>
+	  <fieldset>
+		<legend> 정 보 </legend>
+	  
+	<select name="major2[]" size=2 multiple=2>
+		<optgroup label="과목">
+		<option value="math">수학</option>
+		<option value="eng">영어</option>
+		<option value="web">웹콘텐츠</option>
+		<option value="clang">C언어</option>
+		</optgroup>
+	</select>
+		</fieldset>
+	</fieldset>
+	<br>
+      <input type="submit" value="제출"></input>
+   </form>
+</body>
+</html>

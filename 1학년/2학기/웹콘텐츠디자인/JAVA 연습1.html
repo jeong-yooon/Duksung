@@ -1,0 +1,50 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			var total = "0";
+			var total_last = "";
+			var last_value = "";
+			var before_val = 0;
+			var after_val = 0;
+			function print_value_(val)
+			{	
+			
+				if((val == "+") && (last_value == "+"))
+					return;
+					
+				if (val == "+")
+					before_val = Number(total);
+					
+				if (val == " = ") {
+					//document.write(total_val);
+					after_val = Number(total_last);
+					document.write(after_val + 100);
+					}
+				if((before_val != 0) && (val != "+"))
+					total_last += val;
+				if( 
+				
+				else
+					
+				total += val + before_val + after_val;
+				last_value = val;
+					
+				document.getElementById("print_window").value = total;
+			}
+			function print_init()
+			{
+				total = "";
+				document.getElementById("print_window").value = "0";
+			}
+		</script>
+		<input type="text" id="print_window" value="0"> <br>
+		<input type="button" value="1" onclick="print_value_('1')">
+		<input type="button" value="2" onclick="print_value_('2')">
+		<input type="button" value="3" onclick="print_value_('3')">
+		<input type="button" value="+" onclick="print_value_('+')"> <br>
+		<input type="button" value="=" onclick="print_value_('=')">
+		<input type="button" value="C" onclick="print_init()">
+	</body>
+</html>

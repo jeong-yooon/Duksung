@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		p[align=center]{
+			color:red;
+			}
+		input[value="lastname"] {background: gray;}
+		input:valid{
+			background-color: pink;
+			color: orange;
+			}
+		input:invalid{
+			background-color: black;
+			color: purple;
+			font-style: italic;
+			}
+		table.aa{
+			width: 100%;
+			outline-color: green;
+			outline-style: dashed;
+			outline-width: 1px;
+			border-collapse: separate;
+			border-style: solid;
+			//border-width: 1px;
+			}
+		table.bb{
+			width: 50%;
+			vertical-align: top;
+			input:read-write
+			//border-style: solid;
+			//border-width: 1px;
+			}
+		td,th {
+			width: auto;
+			border-color: red;
+			outline-color: red;
+			outline-style: dotted;
+			//border-style: solid;
+			//border-width: 1px;
+			}
+		input:hover{
+			background-color: yellow;
+			color: green;
+			fon-style: italic;
+			}
+		input [type="text"]{
+			width:100%;
+			box-sizing: border-box;
+			padding: 5px;
+			border-radius: 5px;
+			}
+		input[checked]{
+			height: 40px;
+			width: 40px;
+			}
+		input[type=text]:focus{
+		width: 250px;
+		background-color:green;
+		}
+			
+	</style>
+</head>
+<body bgcolor="skyblue">
+<h3>Using CSS to style a HTML Form</h3>
+  <form action="action_page.php">
+	<fieldset>
+		<legend>Personal</legend>
+		<table>
+				<td>
+					<label for="fname">First Name</label>
+				</td>
+				<td>
+					<label for="lname">Last Name</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" id="fname" name="firstname">
+				</td>
+				<td>
+					<input type="text" id="lname" name="lastname">
+				</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<td>
+					<label for="country">State</label>
+				</td>
+				<td>
+					<label for="age">Age</label>
+				</td>
+				<td>
+					<label for="sex">Sex</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<select id="country" name="country">
+					  <option value="australia">Australia</option>
+					  <option value="canada">Canada</option>
+					  <option value="usa">USA</option>
+					  <option value="korea">Korea</option>
+					</select>
+				</td>
+				<td>
+					<input type="number" id="age" name="age" min="19" max="65">
+				</td>
+				<td>
+					Female: <input type="radio" value="female" name="sex">	
+					Male: <input type="radio" value="male" name="sex">
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+	<p></p>
+	<fieldset>
+		<legend> Contact </legend>
+		<label for="pnumb">Phone number</label><br	>
+		<input type="text" class="pnumb" disabled value="+82">
+		<input type="text" class="pnumb" name="phonenum">
+		<br>
+		<label for="email">e-mail</label><br>
+		<input type="email" id="email" name="email">
+		<br>
+		<label for="addr">Address</label>
+		<input type="text" id="addr" name="address">
+	</fieldset>
+	<p></p>
+	<fieldset>
+		<legend> Memo </legend>
+		<textarea name="memo">Leave a Message...</textarea>
+	</fieldset>
+
+    <p align=center><input type="submit" value="Submit"></p>
+  </form>
+
+</body>
+</html>

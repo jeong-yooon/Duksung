@@ -1,0 +1,52 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h2> Hello H1 </h2>
+		<p> Hello p </p>
+		Name : <input type=text id="name"><br>
+		mid : <input type=text id="mid"><br>
+		final : <input type=text id="fin">
+		<input type=button value="input name" onclick="input_name()">
+		<!--
+		<input type=button value = "input name" onclick="input_name()">
+		 <input type=button value="input">
+		-->
+	</body>
+	<script>
+	function input_name ()
+	{
+		var name_node = document.getElementById("name");
+		var mid_node = document.getElementById("mid");
+		var fin_node = document.getElementById("fin");
+		console.log(name_node.value);
+		var p_nodev = document.createElement("P");
+		var new_node = document.createTextNode(name_node.value);
+		p_node.appendchild(new_node);
+		document.body.appendchild (p_node);
+	}
+	/*
+	var num=1;
+	var select_num = {0,0,0,0,0,0}
+	function get_number ()
+	{
+		console.log(num);
+		for(var i=0; i<6; i++)
+		{
+			if(select_num(i == num))
+		}
+	}
+	function random_number()
+	{
+		if(num == 46)
+			num = 0;
+	}
+	window.setInterval(random_number, 1)
+		//var p_n = document.createElement("p");
+		//var t_n = document.createTextNode("Hew P");
+	// p_n.appendChild(t_n);
+		document.body.appendChild(p_n);
+		document.body.appendChild(p_n);
+		*/
+	</script>
+	</html>

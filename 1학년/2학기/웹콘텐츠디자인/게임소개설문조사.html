@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	
+	<body align="center" bgcolor="skyblue">
+	<br><br><br>
+	<h1>배틀그라운드 만족도 설문조사</h1>
+	   <a>이름: </a><form method = "get" action = "result.html">
+   <fieldset>
+		<legend> 게임내 최고의 장점을 골라주십시오. </legend>
+      <input type="text" name="name" value = "이름을 입력하세요."></input><br>
+      스릴감: <input type="radio" name="hobby" value="music" checked="checked"></input>
+      소통: <input type="radio" name="hobby" value="sleep" id="mus"></input>   
+      <label for ="mus"> 영화: <input type="radio" name="hobby" value="movie"></input>
+      현실감: <input type="radio" name="hobby" value="game"></input><br>
+	  
+		<legend> 게임내 문제점을 모두 골라주십시오. </legend>
+      불법 프로그램:<input type="checkbox" name="major[]" value="lang" checked="checked">
+      팀원간의 불쾌한 언행:<input type="checkbox" name="major[]" value="math">
+      게임내 오류:<input type="checkbox" name="major[]" value="eng" checked="checked"><br>
+	  
+	  <fieldset>
+		<legend> 자신의 나이대를 선택해주십시오. </legend>
+	<select name="major2[]" size=2 multiple>
+		<optgroup label="나이대">
+		<option value="10">10</option>
+		<option value="20">20</option>
+		<option value="30">30</option>
+		<option value="40">40</option>
+		<option value="50">50~</option>
+		</optgroup>
+	</select>
+		</fieldset>
+	</fieldset>
+	<br>
+      <input type="submit" value="제출"></input>
+   </form>
+	</body>
+</html>
