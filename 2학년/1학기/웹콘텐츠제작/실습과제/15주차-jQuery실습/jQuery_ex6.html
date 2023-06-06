@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Element Selection</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script>
+		$(function(){
+			var items = $("li");	// <li>요소를 모두 선택하여 변수 item에 저장함.
+			$("button").on("click", function(){
+				$("#len").text("저장된 <li>요소의 총 개수는 " + items.length + "개입니다.");
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>선택한 요소의 저장</h1>
+	<ul>
+		<li>첫 번째 아이템이에요!</li>
+		<li>두 번째 아이템이에요!</li>
+		<li>세 번째 아이템이에요!</li>
+	</ul>
+	<button>선택된 요소의 길이는?</button>
+	<p id="len"></p>
+</body>
+</html>
+

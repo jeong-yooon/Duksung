@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Element Remove</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script>
+		$(function(){
+			$("button").on("click", function(){
+				// class가 "content"인 요소 중에서 class가 각각 "first", "second"인 요소를 모두 삭제함.
+				$(".content").remove(".first, .second");
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>.remove() 메소드</h1>
+	<div>
+		<div class="content first">첫 번째 컨텐츠에요!</div>
+		<div class="content second">두 번째 컨텐츠에요!</div>
+		<div class="content third">세 번째 컨텐츠에요!</div>
+	</div>
+	<br>
+	<button>div 요소 삭제</button>
+</body>
+</html>
+

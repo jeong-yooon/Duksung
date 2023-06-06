@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Element Selection</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script>
+		$(function(){
+			$("button").on("click", function(){
+				//체크되어 있는 요소를 모두 선택함.
+				$(":checked").next().text("체크되어 있는 요소는 이 요소입니다.");
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Form 요소의 선택</h1>
+	<form>
+		<input type="checkbox" name="lecture" value="html"> <span>HTML</span> <br>
+		<input type="checkbox" name="lecture" value="css"> <span>CSS</span> <br>
+		<input type="checkbox" name="lecture" value="javascript"> <span>자바스크립트</span> <br>
+		<input type="checkbox" name="lecture" value="jquery" checked> <span>제이쿼리</span>
+	</form>
+	<button>필터링</button>
+</body>
+</html>
+

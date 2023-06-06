@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Element Selection</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script>
+		$(function(){
+			$("button").on("click", function(){
+				//<img>요소 중에서 alt 속성값이 "flower"인 요소를 모두 선택함.
+				$("img[alt='flower']").attr("src", "images/monalisa.png");
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>속성 선택자</h1>
+	<img src="images/flower.png" alt="flower"><br>
+	<button>속성을 바꾸죠!!</button>
+</body>
+</html>
