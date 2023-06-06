@@ -1,0 +1,2 @@
+C:\Users\samsung\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe
+C:\Users\samsung\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.pdb
