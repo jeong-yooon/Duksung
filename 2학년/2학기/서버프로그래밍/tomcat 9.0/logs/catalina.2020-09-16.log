@@ -1,0 +1,203 @@
+16-Sep-2020 00:20:27.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.37
+16-Sep-2020 00:20:27.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Jun 30 2020 20:09:49 UTC
+16-Sep-2020 00:20:27.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.37.0
+16-Sep-2020 00:20:27.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+16-Sep-2020 00:20:27.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+16-Sep-2020 00:20:27.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+16-Sep-2020 00:20:27.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             c:\program files\java\jdk-14.0.2
+16-Sep-2020 00:20:27.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           14.0.2+12-46
+16-Sep-2020 00:20:27.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+16-Sep-2020 00:20:27.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat 9.0
+16-Sep-2020 00:20:27.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat 9.0
+16-Sep-2020 00:20:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2020 00:20:27.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Sep-2020 00:20:27.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2020 00:20:27.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=c:\tomcat 9.0\conf\logging.properties
+16-Sep-2020 00:20:27.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2020 00:20:27.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2020 00:20:27.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2020 00:20:27.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+16-Sep-2020 00:20:27.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=c:\tomcat 9.0
+16-Sep-2020 00:20:27.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=c:\tomcat 9.0
+16-Sep-2020 00:20:27.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=c:\tomcat 9.0\temp
+16-Sep-2020 00:20:27.882 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.24]을(를) 로드했습니다.
+16-Sep-2020 00:20:27.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16-Sep-2020 00:20:27.884 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+16-Sep-2020 00:20:27.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+16-Sep-2020 00:20:28.111 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+16-Sep-2020 00:20:28.202 INFO [main] org.apache.catalina.startup.Catalina.load [513] 밀리초 내에 서버가 초기화되었습니다.
+16-Sep-2020 00:20:28.238 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+16-Sep-2020 00:20:28.241 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.37]
+16-Sep-2020 00:20:28.261 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]을(를) 배치합니다.
+16-Sep-2020 00:20:28.546 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]의 배치가 [285] 밀리초에 완료되었습니다.
+16-Sep-2020 00:20:28.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\docs]을(를) 배치합니다.
+16-Sep-2020 00:20:28.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\docs]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+16-Sep-2020 00:20:28.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\examples]을(를) 배치합니다.
+16-Sep-2020 00:20:29.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\examples]에 대한 배치가 [432] 밀리초에 완료되었습니다.
+16-Sep-2020 00:20:29.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\host-manager]을(를) 배치합니다.
+16-Sep-2020 00:20:29.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\host-manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+16-Sep-2020 00:20:29.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\manager]을(를) 배치합니다.
+16-Sep-2020 00:20:29.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\manager]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+16-Sep-2020 00:20:29.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+16-Sep-2020 00:20:29.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\ROOT]에 대한 배치가 [27] 밀리초에 완료되었습니다.
+16-Sep-2020 00:20:29.127 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+16-Sep-2020 00:20:29.137 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [934] 밀리초 내에 시작되었습니다.
+16-Sep-2020 00:25:23.951 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service HTTP 요청 헤더를 파싱하는 중 오류 발생
+비고: HTTP 요청 파싱 오류들이 더 발생하는 경우 DEBUG 레벨 로그로 기록될 것입니다.
+	java.lang.IllegalArgumentException: 메소드 이름에 유효하지 않은 문자가 발견되었습니다. HTTP 메소드 이름은 유효한 토큰이어야 합니다.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+16-Sep-2020 00:25:23.951 INFO [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.service HTTP 요청 헤더를 파싱하는 중 오류 발생
+비고: HTTP 요청 파싱 오류들이 더 발생하는 경우 DEBUG 레벨 로그로 기록될 것입니다.
+	java.lang.IllegalArgumentException: 메소드 이름에 유효하지 않은 문자가 발견되었습니다. HTTP 메소드 이름은 유효한 토큰이어야 합니다.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+16-Sep-2020 00:25:23.985 INFO [http-nio-8080-exec-3] org.apache.coyote.http11.Http11Processor.service HTTP 요청 헤더를 파싱하는 중 오류 발생
+비고: HTTP 요청 파싱 오류들이 더 발생하는 경우 DEBUG 레벨 로그로 기록될 것입니다.
+	java.lang.IllegalArgumentException: 메소드 이름에 유효하지 않은 문자가 발견되었습니다. HTTP 메소드 이름은 유효한 토큰이어야 합니다.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+16-Sep-2020 00:25:23.985 INFO [http-nio-8080-exec-4] org.apache.coyote.http11.Http11Processor.service HTTP 요청 헤더를 파싱하는 중 오류 발생
+비고: HTTP 요청 파싱 오류들이 더 발생하는 경우 DEBUG 레벨 로그로 기록될 것입니다.
+	java.lang.IllegalArgumentException: 메소드 이름에 유효하지 않은 문자가 발견되었습니다. HTTP 메소드 이름은 유효한 토큰이어야 합니다.
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+16-Sep-2020 02:31:22.362 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+16-Sep-2020 02:31:22.365 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+16-Sep-2020 02:31:22.386 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+16-Sep-2020 02:31:22.416 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+16-Sep-2020 02:31:22.418 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+16-Sep-2020 02:54:07.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.37
+16-Sep-2020 02:54:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Jun 30 2020 20:09:49 UTC
+16-Sep-2020 02:54:07.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.37.0
+16-Sep-2020 02:54:07.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+16-Sep-2020 02:54:07.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+16-Sep-2020 02:54:07.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+16-Sep-2020 02:54:07.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             c:\program files\java\jdk-14.0.2
+16-Sep-2020 02:54:07.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           14.0.2+12-46
+16-Sep-2020 02:54:07.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+16-Sep-2020 02:54:07.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat 9.0
+16-Sep-2020 02:54:07.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat 9.0
+16-Sep-2020 02:54:07.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2020 02:54:07.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Sep-2020 02:54:07.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2020 02:54:07.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=c:\tomcat 9.0\conf\logging.properties
+16-Sep-2020 02:54:07.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2020 02:54:07.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2020 02:54:07.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2020 02:54:07.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+16-Sep-2020 02:54:07.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=c:\tomcat 9.0
+16-Sep-2020 02:54:07.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=c:\tomcat 9.0
+16-Sep-2020 02:54:07.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=c:\tomcat 9.0\temp
+16-Sep-2020 02:54:07.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.24]을(를) 로드했습니다.
+16-Sep-2020 02:54:07.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16-Sep-2020 02:54:07.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+16-Sep-2020 02:54:07.197 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+16-Sep-2020 02:54:07.422 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+16-Sep-2020 02:54:07.513 INFO [main] org.apache.catalina.startup.Catalina.load [518] 밀리초 내에 서버가 초기화되었습니다.
+16-Sep-2020 02:54:07.549 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+16-Sep-2020 02:54:07.550 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.37]
+16-Sep-2020 02:54:07.594 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]을(를) 배치합니다.
+16-Sep-2020 02:54:07.862 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]의 배치가 [267] 밀리초에 완료되었습니다.
+16-Sep-2020 02:54:07.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\docs]을(를) 배치합니다.
+16-Sep-2020 02:54:07.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\docs]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+16-Sep-2020 02:54:07.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\examples]을(를) 배치합니다.
+16-Sep-2020 02:54:08.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\examples]에 대한 배치가 [586] 밀리초에 완료되었습니다.
+16-Sep-2020 02:54:08.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\host-manager]을(를) 배치합니다.
+16-Sep-2020 02:54:08.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\host-manager]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+16-Sep-2020 02:54:08.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\manager]을(를) 배치합니다.
+16-Sep-2020 02:54:08.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+16-Sep-2020 02:54:08.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+16-Sep-2020 02:54:08.605 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\ROOT]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+16-Sep-2020 02:54:08.610 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+16-Sep-2020 02:54:08.620 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1103] 밀리초 내에 시작되었습니다.
+16-Sep-2020 03:17:46.110 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+16-Sep-2020 03:17:46.110 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+16-Sep-2020 03:17:46.141 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+16-Sep-2020 03:17:46.163 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+16-Sep-2020 03:17:46.163 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+16-Sep-2020 03:21:15.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.37
+16-Sep-2020 03:21:15.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Jun 30 2020 20:09:49 UTC
+16-Sep-2020 03:21:15.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.37.0
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             c:\program files\java\jdk-14.0.2
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           14.0.2+12-46
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+16-Sep-2020 03:21:15.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat 9.0
+16-Sep-2020 03:21:15.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat 9.0
+16-Sep-2020 03:21:15.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2020 03:21:15.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Sep-2020 03:21:15.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2020 03:21:15.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=c:\tomcat 9.0\conf\logging.properties
+16-Sep-2020 03:21:15.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2020 03:21:15.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2020 03:21:15.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2020 03:21:15.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+16-Sep-2020 03:21:15.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=c:\tomcat 9.0
+16-Sep-2020 03:21:15.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=c:\tomcat 9.0
+16-Sep-2020 03:21:15.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=c:\tomcat 9.0\temp
+16-Sep-2020 03:21:15.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.24]을(를) 로드했습니다.
+16-Sep-2020 03:21:15.762 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16-Sep-2020 03:21:15.763 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+16-Sep-2020 03:21:15.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+16-Sep-2020 03:21:16.010 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+16-Sep-2020 03:21:16.097 INFO [main] org.apache.catalina.startup.Catalina.load [547] 밀리초 내에 서버가 초기화되었습니다.
+16-Sep-2020 03:21:16.134 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+16-Sep-2020 03:21:16.137 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.37]
+16-Sep-2020 03:21:16.157 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]을(를) 배치합니다.
+16-Sep-2020 03:21:16.179 INFO [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [C:\tomcat 9.0\webapps\FirstProject]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+16-Sep-2020 03:21:16.459 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]의 배치가 [300] 밀리초에 완료되었습니다.
+16-Sep-2020 03:21:16.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\docs]을(를) 배치합니다.
+16-Sep-2020 03:21:16.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\docs]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+16-Sep-2020 03:21:16.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\examples]을(를) 배치합니다.
+16-Sep-2020 03:21:16.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\examples]에 대한 배치가 [441] 밀리초에 완료되었습니다.
+16-Sep-2020 03:21:16.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\host-manager]을(를) 배치합니다.
+16-Sep-2020 03:21:16.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\host-manager]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+16-Sep-2020 03:21:16.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\manager]을(를) 배치합니다.
+16-Sep-2020 03:21:17.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+16-Sep-2020 03:21:17.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\ROOT]을(를) 배치합니다.
+16-Sep-2020 03:21:17.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\tomcat 9.0\webapps\ROOT]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+16-Sep-2020 03:21:17.067 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+16-Sep-2020 03:21:17.077 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [978] 밀리초 내에 시작되었습니다.
+16-Sep-2020 03:23:47.419 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/FirstProject]의 배치를 제거합니다.
+16-Sep-2020 03:23:47.478 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]을(를) 배치합니다.
+16-Sep-2020 03:23:47.528 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\tomcat 9.0\webapps\FirstProject.war]의 배치가 [49] 밀리초에 완료되었습니다.
+16-Sep-2020 03:31:24.364 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+16-Sep-2020 03:31:24.364 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+16-Sep-2020 03:31:24.380 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+16-Sep-2020 03:31:24.395 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+16-Sep-2020 03:31:24.401 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
