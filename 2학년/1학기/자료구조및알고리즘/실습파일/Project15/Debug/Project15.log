@@ -1,0 +1,8 @@
+﻿  Infix2Postfix.c
+C:\Users\samsung\source\repos\Project15\Infix2Postfix.c(24,6): warning C4013: 'Init'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\samsung\source\repos\Project15\Infix2Postfix.c(31,19): warning C4013: 'isEmpty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\samsung\source\repos\Project15\Infix2Postfix.c(31,47): warning C4013: 'peek'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\samsung\source\repos\Project15\Infix2Postfix.c(33,18): warning C4013: 'pop'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\samsung\source\repos\Project15\Infix2Postfix.c(37,8): warning C4013: 'push'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\samsung\source\repos\Project15\Infix2Postfix.c(68,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+  Project15.vcxproj -> C:\Users\samsung\source\repos\Project15\Debug\Project15.exe
