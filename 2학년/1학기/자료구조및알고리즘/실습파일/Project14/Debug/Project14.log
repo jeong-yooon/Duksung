@@ -1,4 +1,0 @@
-﻿  소스.c
-C:\Users\samsung\source\repos\Project14\소스.c(105,31): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\samsung\source\repos\Project14\소스.c(9,10): warning C4101: 'buffer' :참조되지 않은 지역 변수입니다.
-  Project14.vcxproj -> C:\Users\samsung\source\repos\Project14\Debug\Project14.exe

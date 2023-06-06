@@ -1,3 +1,0 @@
-﻿  소스.c
-C:\Users\samsung\source\repos\Project13\소스.c(43,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-  Project13.vcxproj -> C:\Users\samsung\source\repos\Project13\Debug\Project13.exe
