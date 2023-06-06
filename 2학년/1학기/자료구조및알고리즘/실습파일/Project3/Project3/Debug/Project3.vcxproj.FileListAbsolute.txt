@@ -1,0 +1,2 @@
+C:\Users\samsung\source\repos\Project3\Debug\Project3.exe.lastcodeanalysissucceeded
+C:\Users\samsung\source\repos\Project3\Project3\Debug\NativeCodeAnalysis.read.1.tlog
