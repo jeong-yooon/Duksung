@@ -1,0 +1,16 @@
+select * from employee;
+
+select emplid, ssn
+from employee
+where name = '임양미';
+
+select emplid, dept
+from job, assignment
+where job.jobid=assignment.jobid
+and termdate is null;
+
+select startdate
+from employee, assignment
+where employee.emplid=assignment.emplid
+and name='정원호'
+and termdate is null;
