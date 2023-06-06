@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+p{
+    border-color: tomato;
+    border-style: solid;
+}
+div{
+    border-color: tan #0bd tomato #000;
+    border-style: solid;
+}
