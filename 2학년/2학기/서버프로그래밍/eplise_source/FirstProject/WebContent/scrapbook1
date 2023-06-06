@@ -1,0 +1,46 @@
+select * from employee;
+select * from job;
+select * from assignment;
+
+select emplid, ssn
+from employee
+where name = '임양미';
+
+select emplid, dept
+from job, assignment
+where job.jobid=assignment.jobid
+and termdate is null;
+
+select startdate
+from employee, assignment
+where employee.emplid=assignment.emplid
+and name='정원호'
+and termdate is null;
+
+1. 음두헌의 주민등록번호와 주소는?
+select ssn, address
+from employee
+where name = '음두헌';
+
+2. 인사부에 속한 업무들은?
+select skillcode
+from job
+where dept='인사부';
+
+3. 모든 사원의 이름과 현 부서 발령일은?
+select name, startdate
+from employee, assignment
+where employee.emplid=assignment.emplid;
+
+4. 모든 사원의 이름과 현 소속부서는?
+select name, dept
+from employee, job, assignment
+where employee.emplid=assignment.emplid
+and job.jobid=assignment.jobid;
+
+5. 부장들의 명단은?
+select name
+from employee, job, assignment
+where jobtitle = '부장'
+and employee.emplid=assignment.emplid
+and job.jobid=assignment.jobid;
