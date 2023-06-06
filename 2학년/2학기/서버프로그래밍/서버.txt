@@ -1,0 +1,15 @@
+getParameterValues => 문자열배열을 의미한다
+
+calculatorFormHome.jsp
+calculatorProHome.jsp
+
+디렉티브(지시자): <%@ %>
+이페이지의 속성값을 지정하기 위해서 사용
+
+1~6장
+page 디렉티브 - JSP페이지에 대한 정보 
+<%@ page%>
+
+include 디렉티브 
+<%@include%>
+
