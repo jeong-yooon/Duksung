@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Flower Shop - ORDER</title>
+        <meta name="description" content="명품 블렌드 커피와 유기농 음식을 제공하는 카페">
+        <link rel="icon" type="image/png" href="images/flowericon.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body class="order-body">
+        <div id="contact" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="images/flowerlogo.png" alt="WCB 카페 홈"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="inform.html">Inform</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="order.html">Order</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+                <h2 class="page-title">Order</h2>
+                <form method="post" action="https://script.google.com/macros/s/AKfycbzy5yyAPUB5AB2QRqVahboNrS33LXa84roLB1ClMw/exec">
+                    <div>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="your-name">
+                    </div>
+
+                    <div>
+                        <label for="address" > 주소 </label>
+                        <input type="text" id="address" name="your-address">
+                    </div>
+                    <div>
+                        <label for="tel"> 전화번호 </label>
+                        <input type="tel" id="email" name="your-tel">
+                    </div>
+                    <div>
+                        <label for="email"> 메일주소 </label>
+                        <input type="email" id="email" name="your-email">
+                    </div>
+                    <!--
+                    <div>
+                        <label for="order"> 주문옵션 </label>
+                    </div>
+                    <select id="flowers">
+                        <option value="1" selected>노란장미</option>
+                        <option value="2">오렌지색장미</option>
+                        <option value="3">코랄색장미</option>
+                        <option value="4">파란색장미</option>
+                        <option value="5">보라색장미</option>
+                        <option value="6">연분홍색장미</option>
+                        <option value="7">튤립</option>
+                        <option value="8">작약</option>
+                        <option value="9">카네이션</option>
+                    </select>
+                    
+                    <form>
+                        <label for="cal"> 결제방법 </label>
+                        <input type="radio" name="cal" value="card">카드
+                        <input type="radio" name="cal" value="offbank">무통장
+                        <input type="radio" name="cal" value="onbank">인터넷뱅킹
+                    </form>
+                    
+                -->
+
+                    <div>
+                        <label for="message"> 요청메시지 </label>
+                        <textarea id="message" name="your-message"></textarea>
+                    </div>
+
+                    <!--<a onclick="alert('주문이 완료되었습니다.');" style="cursor:pointer">--><input type="submit" class="button" value="주문"><!--</a>-->
+                </form>
+            </div><!-- /.wrapper -->
+        </div><!-- /#contact -->
+
+        <section id="location">
+            <div class="wrapper">
+                <div class="location-info">
+                    <h3 class="sub-title">마이플레 성수점</h3>
+                    <p>
+                        주소: 서울숲꽃집 마이플레<br>
+                        〇〇〇〇〇〇〇 133-71<br>
+                        〇〇〇〇<br>
+                        전화번호: 02-1111-1111<br>
+                        영업 시간: 07:00-20:00<br>
+                        휴무일: 매주 화요일<br>
+                        카카오톡: open.kakao.com/o/sJaz2CRb
+                    </p>
+                </div><!-- /.location-info -->
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.350726111588!2d127.03911371564767!3d37.54679983301515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca49d9546ffd3%3A0x8ac2389fb052440!2z66eI7J207ZSM66CI!5e0!3m2!1sko!2skr!4v1590426284509!5m2!1sko!2skr"
+                    width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div><!-- /.location-map -->
+            </div><!-- /.wrapper -->
+        </section><!-- /#location -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2019 Manabox</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
