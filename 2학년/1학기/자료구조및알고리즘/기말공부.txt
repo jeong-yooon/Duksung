@@ -1,0 +1,344 @@
+next
+참조된 데이터의 다음 데이터가 pdata가 가리키는 메모리에 저장된다.
+순차적인 참조를 위해서 반복 호출이 가능하다.
+참조를 새로 시작하려면 먼저 LFirst 함수를 호출해야 한다.
+참조 성공 시 TRUE, 실패 시 FALSE 반환
+다음 데이터의 참조를 목적으로 호출
+
+remove
+LFirst 또는 LNext 함수의 마지막 반환 데이터를 삭제한다.
+삭제된 데이터는 반환된다.
+마지막 반환 데이터를 삭제하므로 연이은 반복 호출을 허용하지 않는다.
+바로 이전에 참조이 이뤄진 데이터의 삭제
+
+count
+리스트에 저장되어 있는 데이터의 수를 반환한다.
+현재 저장되어 있는 데이터의 수를 반환.
+
+list list;
+listinit(&list);
+linsert(&list,11);
+linsert(&list,22);
+linsert(&list,33);
+
+리스트의 데이터 참조 과정
+if (lfirst(&list, &data)){
+	 printf("%d", data);
+	while(LNext(&list, &data) )	//두 번째 이후 데이터 변수 data에 저장
+}
+
+ldata arr[list_len];
+int numofdata; -> 리스트에 저장된 데이터의 수
+int curposition; -> 마지막 참조 위치에 대한 정보 저장
+
+void listinint
+
+plist->numofdata = 0;
+plist->curposition = -1;
+
+typedef struct __arraylist{
+	ldata arr[list_len];
+	int numofdata;
+	int curposition;
+} arraylist;
+
+void listinit(list * plist){
+	(plist->numofdata) = 0;
+	(plist->curposition) = -1;
+
+배열 기반 리스트의 삽입
+plist->arr[plist->numofdata] = data;	// 데이터 저장
+(plist->numofdata)++;		//저장된 데이터의 수 증가
+
+void setpointpos(point* ppos, int xpos, int ypos){
+	ppos->xpos = xpos;
+	ppos->ypos = ypos;
+}
+void showpointpos(point*ppos){
+	printf("%d, %d] \n", ppos->xpos, ppos->ypos);
+}
+
+int pointcomp(point * pos1, point * pos2){
+
+node*head = NULL;
+node*tail = null;
+node*cur = null;
+
+node*newnode=null;
+int readdata;
+
+if(readdata < 1)
+break;
+newnode = (node*)malloc(sizeof(node));
+newnode->data = readdata;
+newnode->next = null;
+if(head == null)
+	head = newnode;
+else
+	tail->next = newnode;
+
+void linsert(list*plist, ldata data){
+	if(plist->comp == null) finsert(plist, data);
+	else sinsert(plist, data);
+}
+void finsert(list*plist, ldata data){
+	node*newnode = (node*)malloc(sizeof(node));
+	newnode->data = data;
+	newnode->next = plist->head->next;
+	plist->head->next = newnode;
+	(plist->numofdata)++;
+}
+
+void finsert(list * plist, ldata data){
+node * newnode = (node*)malloc(sizeof(node));
+newnode->data = data;
+newnode->next = plist->
+
+int lnext(list*plist, ldata*pdata)
+{
+if(plist->cur->next == NULL) return FALSE;
+plist->before = plist->cur;
+plist->cur = plist
+
+더미노드 연결 리스트 구현: 삭제2
+ldata lremove(list * plist){
+	node*rpos = plist->cur;
+	ldata rdata = rpos->data;
+	
+	plist->before->next = plist->cur->next;
+	plist->cur = plist->before;
+	
+	free(rpos);
+	(plist->numofdata)--;
+	return rdata;
+}
+
+정렬기준이 되는 함수를 등록하는 setsortrule함수
+setsortrule함수 통해 전달된 함수정보 저장을 위한 linkedlist의 멤버 comp
+comp에 등록된 정렬기준을 근거로 데이터를 저장하는 sinsert함수
+
+setsortrule 함수가 호출되면서 정렬의 기준이 리스트의 멤버 comp에 등록되면, sinsert함수 내에서는
+comp에 등록된 정렬의 기준을 근거로 데이터를 정렬하여 저장한다.
+
+setsortrule(list*plist, int(*comp)(ldata d1, ldata d2))
+{
+	plist>comp = comp;
+}
+typedef struct _linkedlist
+{
+	node*head;
+	node*cur;
+	node*before;
+	int numofdata;
+	int (*comp)(ldata d1, ldata d2);
+} linkedlist;
+
+sinsert 함수1
+void sinsert(list*plist, ldata data)
+{
+node*newnode = (node*)malloc(sizeof(node));
+node*pred = plist->head;
+newnode->data = data;
+//새노드가 들어갈 위치를 찾기 위한 반복문!
+while(pred->next != null && plist->comp(data, pred->next->data) != 0)
+{
+	pred = pred->next; //다음 노드로 이동
+}
+newnode->next = pred->next;
+pred->next = newnode;
+(plist->numofdata)++;
+
+정렬의 핵심인 while 반복문
+반복의 조건1
+pred가 리스트의 마지막 노드를 가리키는지 묻기 위한 연산
+
+반복의 조건2
+새 데이터와 pred의 다음 노드에 저장된 데이터의 우선순위 비교를 위한 함수호출
+while(pred->next != NULL && plist->comp(data, pred->next->data)!=0)
+{
+	pred=pred->next; //다음 노드로 이동
+}
+
+comp가 0을 반환
+첫 번째 인자인 data가 정렬 순서상 앞서서 head에 더 가까워야 하는 경우
+
+comp가 1을 반환
+두 번째 인자인 pred->next->data 가 정렬 순서상 앞서서 head에 더 가까워야 하는 경우
+
+단순 연결 리스트의 마지막 노드는 NULL을 가리킨다.
+원형 연결 리스트의 마지막 노드는 첫 번째 노드를 가리킨다.
+
+모든 노드가 원의 형태를 이루면서 연결되어 있기 때문에
+원형 연결 리스트에서는 사실상 머리와 꼬리의 구분이 없다.
+새로 추가된 노드
+꼬리를 가리키는 포인터 변수 tail
+머리를 가리키는 포인터 변수 tail->next
+
+typedef clist list;
+
+void listinit(list * plist);
+void linsert(list * plist, data data);
+
+void linsertfront(list*plist, data data);
+int lfirst(list*plist, data * pdata);
+int lnext(list*plist, data * pdata);
+data lremove(list*plist);
+int lcount(list*plist);
+void listinit(list*plist)
+plist->tail = null;
+plist->cur = null;
+plist->before = null;
+plist->numofdata = 0;
+
+plist->tail = newnode;
+newnode->next = newnode;
+}
+else
+newnode->next = plist->tail->next;
+plist->tail->next = newnode;
+plist->tail = newnode;
+
+typedef struct _empinfo{
+int empnum;
+int age;
+
+empinfo;
+
+empinfo empinfoarr[1000];
+empinfo ei;
+int enum;
+
+printf("사번과 나이 입력: ");
+scanf("%d %d", &(ei.empnum), &(ei.age));
+empinfoarr[ei.empnum] = ei;
+
+printf("확인하고픈 직원의 사번 입력: ");
+scanf("%d", &enum);
+
+ei = empinfoarr[enum];	//단범에 탐색!
+printf("사번 &d, 나이 %d \n", ei.empnum, ei.age);
+return 0;
+
+int main(void){
+empinfo empinfoarr[100];
+
+empinfo emp1 = {
+
+키를 인덱스 값으로 이용해서 탐색
+
+탐색 결과 확인
+
+int getssn(person *p);
+void showperinfo(person*p);
+person*makepersondata(intssn, char*name,
+
+makepersondata
+person*newp = (person*)malloc(sizeof(person));
+newp->ssn = ssn;
+strcpy(newp->name, name);
+strcpy(newp>addr, addr);
+return newp;
+
+init
+int i;
+for(i=0;i<MAX_TBL; i++)
+(pt->tbl[i]).status = empty;
+pt->hf=f;
+
+insert
+int hv = pt->hf(k)
+pt->tbl[hv].val = v;
+pt->tvl[hv].key = k;
+pt->tbl[hv].status = inuse;
+
+tbldelete(table*pt, key k)
+{
+int hv = pt->hf(k);
+if((pt->tbl[hv]).status != inuse)
+{
+return null;
+}
+else
+{
+(pt->tbl[hv]).status = deleted;
+return (pt->tbl[hv]).val;
+
+선형 조사법
+이차 조사법
+
+이중해쉬
+
+k%15
+1+(k%c)
+
+k%15
+1+(k%7)
+
+2차 해쉬 값이 0이 되는 것을 막기 위해서 1을 더한다
+배열의 길이가 15이므로 c를 15보다 작은 수도 한다.
+클러스터 현상을 낮춘다는 통계를 근거로 c를 소수로 결정한다.
+
+체이닝
+한 해쉬 값에 다수의 데이터를 저장할 수 있도록 배열을 2차원의 형태로 선언하는 모델
+
+slot table table
+
+체이닝의 구현: 슬롯의 변경
+
+int distance[n][n], shortest[n], visited[n];
+
+void set_edge(int a, int b, int w){
+distance[a][b] = distance[b][a] = w;
+}
+//방문하지 않은 정점 중 최단 거리를 가진 노드의 번호를 돌려준다.
+
+int get_shortest_node(){
+int min = inf, min_v;
+for(int i=0; i<n; i++){
+if(!visited[i] && min > shortest[i]){
+min = shortest[i];
+min_v = i;
+}
+}
+return min_v;
+
+init
+destroy
+addedge
+showgraphedgeinfo
+dfshowgraphvertex
+conkruskalmst
+showgraphedgeweightinfo
+
+차수: 하나의 정점에 연결된 간선의 개수
+진입차수: 정점으로 들어오는 간선의 개수
+진출차수: 나가는 간선의 개수
+
+사이클: 한 노드에서 시작해서 같은 노드에서 끝나는 경로
+Acyclic 그래프: 사이클이 없는 그래프
+
+최악의 경우 탐색 시간
+배열
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
