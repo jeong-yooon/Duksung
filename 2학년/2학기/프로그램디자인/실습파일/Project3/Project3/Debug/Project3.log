@@ -1,0 +1,22 @@
+﻿  main.c
+C:\Users\samsung\source\repos\Project3\Project3\main.c(68,1): warning C4047: '초기화 중': 'node_t *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(91,14): warning C4047: 'return': 'int'의 간접 참조 수준이 'list_t *'과(와) 다릅니다.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(81,1): warning C4133: '초기화 중': 'node_t *'과(와) 'list_t *' 사이의 형식이 호환되지 않습니다.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(85,1): warning C4133: '초기화 중': 'list_t *'과(와) 'node_t *' 사이의 형식이 호환되지 않습니다.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(114,29): warning C4098: 'print': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(110,10): warning C4101: 'next' :참조되지 않은 지역 변수입니다.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(130,29): warning C4098: 'print_reverse': 'void' 함수에서 값을 반환하고 있습니다.
+  Project3.vcxproj -> C:\Users\samsung\source\repos\Project3\Debug\Project3.exe
+C:\Users\samsung\source\repos\Project3\Project3\main.c(7): warning C6011: NULL 포인터 'node'을(를) 역참조하고 있습니다. 
+C:\Users\samsung\source\repos\Project3\Project3\main.c(24): warning C6011: NULL 포인터 'head'을(를) 역참조하고 있습니다. 
+C:\Users\samsung\source\repos\Project3\Project3\main.c(48): warning C6011: NULL 포인터 'head'을(를) 역참조하고 있습니다. 
+C:\Users\samsung\source\repos\Project3\Project3\main.c(64): warning C6011: NULL 포인터 'head'을(를) 역참조하고 있습니다. 
+C:\Users\samsung\source\repos\Project3\Project3\main.c(148): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(151): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(156): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(161): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(166): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(171): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(175): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(179): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\samsung\source\repos\Project3\Project3\main.c(150): warning C6054: 'command' 문자열이 0으로 종료되지 않을 수 있습니다.
