@@ -1,0 +1,72 @@
+1-1
+a+2 -> 10
+a[1] -> 5
+a[0]+1 -> 5
+&a[1] -> 100
+
+1-2
+b+2 -> b[2] -> 100
+b[1] -> 10
+b[1][2] -> 30
+b[1]+2 -> b[1][2] -> 30
+
+1-3
+1000+ix600+jx30+k+1
+
+1-4
+2
+
+1-5
+4(?)
+
+2-1
+struct line {
+	int point *start;
+	int point *end;
+}
+
+2-2
+①"%d %d", &ln.start.x, &ln.start.y
+②"%d %d", &ln.end.x, &ln.end.y
+③ln.end.x - ln.start.x, 2
+④ln.end.y - ln.start.y, 2
+
+3-1
+p-fp = &pa[i];
+p = p->fp;
+p->fp = NULL;
+
+3-2
+
+
+3-3
+&pa[i-1] -> fp = &pa[i] -> fp
+
+3-4
+q->fp = p->fp
+p->fp = q
+
+3-5
+q->fp = head
+head = q 
+
+3-6
+p->fp
+&pa[9] ->fp = q
+q->fp = NULL
+
+4-1
+20바이트
+
+4-2
+
+struct date {
+	unsigned day : 8;
+	unsifned time : 6;
+}
+
+5-1
+2(?)
+
+5-2
+result = pf(10, 20); => result = pf[0](10, 20);
