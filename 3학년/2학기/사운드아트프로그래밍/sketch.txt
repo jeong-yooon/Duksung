@@ -1,0 +1,15 @@
+let video;
+function setup(){
+createCanvas(640, 480);
+video = createVideo("01.mp4");
+//video.loop();
+//video.volume(0);
+}
+
+function draw(){
+image(video, 0, 0, 640, 480);
+}
+
+function mouseClicked(){
+video.loop();
+}
