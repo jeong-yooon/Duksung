@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\기타\\코딩캠프\\precamp-13"
+		},
+		{
+			"path": "..\\..\\..\\..\\기타\\코딩캠프\\cal"
+		},
+		{
+			"path": "..\\..\\..\\졸업작품\\실습\\딥러닝"
+		},
+		{
+			"path": "..\\..\\..\\졸업작품\\실습\\deeplearning"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "precamp-13"
+	}
+}
