@@ -1,0 +1,11 @@
+"title": "맥주",
+"origin": "독일",
+"exDate": "22-06-30"
+
+"title": "계란",
+"origin": "국산",
+"exDate": "22-05-23"
+
+"title": "소고기",
+"origin": "호주",
+"exDate": "22-04-20"
