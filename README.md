@@ -1,48 +1,22 @@
-# webprogramming
-웹프응용
-
-## gradle 코드
-plugins {
-   id 'org.springframework.boot' version '2.5.7'
-   id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-   id 'java'
-}
-
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
-
-configurations {
-   compileOnly {
-      extendsFrom annotationProcessor
-   }
-}
-
-repositories {
-   mavenCentral()
-}
-
-dependencies {
-   implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-   implementation 'org.springframework.boot:spring-boot-starter-web'
-   implementation 'org.springframework.boot:spring-boot-starter-security'
-   
-   compileOnly 'org.projectlombok:lombok'
-   runtimeOnly 'com.h2database:h2'
-   annotationProcessor 'org.projectlombok:lombok'
-   testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-   // https://mvnrepository.com/artifact/com.google.guava/guava
-   implementation group: 'com.google.guava', name: 'guava', version: '28.1-jre'
-   
-   // https://mvnrepository.com/artifact/org.projectlombok/lombok
-   //compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
-   
-   //JWT 관련 라이브러리
-   implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
-   
-}
-
-tasks.named('test') {
-   useJUnitPlatform()
-}
+# 전공기록
+## - 2019
+    - 컴퓨터운영과활용 - mysql, UNIX
+    - 기초프로그래밍 - c언어
+## - 2020
+    - 프로그램디자인 - c언어
+    - 웹콘 - html, css, js
+    - 3d그래픽스제작기초 - 3dmax
+    - 자구 - 알고리즘, c언어
+    - 객체프로그래밍 - 자바
+    - 그래픽스프로그램밍 - c++
+    - 서버프로그래밍 - jquery, java, jsp
+    - 안드로이드플랫폼 - 안드로이드스튜디오
+## - 2021
+    - 겜프 - unity
+    - 파이썬 - python
+    - 사운드아트 - js
+## - 2022
+    - 웹프응용 - react/spring
+    - 데분프 - 크롤링, pandas, numpy, openapi, 데이터분석
+    - 딥러닝기초 - 데이터전처리, 딥러닝
+    - 시소 - 머신러닝, 딥러닝
